@@ -1,0 +1,55 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+	body{
+			background:url(img/bg.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			letter-spacing: .5px;
+			text-decoration: none;
+
+	}
+	.container{
+		text-align: center;
+		margin: 10% auto;
+
+	}
+	.container p{
+		font-size: 20px;
+		color: lightgreen;
+	}
+	.form{
+    width: 500px;
+    height: 250px;
+    background-color: #f1f1f1;
+    margin: 0 auto;
+    padding: 35px;
+
+	}
+
+	.form h2{
+		margin: 5px;
+		padding-top: 3px;
+	}
+
+	.box{
+		padding: 3px;
+		width: 55%;
+	}
+
+	.btn{  padding: 6px 10px;
+    border: 1px #000000ad;
+    background-color: #34ace0;
+    color: #fff;
+    border-radius: 2px;
+    transition: .6s ease;
+
+	}
+	.btn:hover{
+    border: none;
+    color: purple;
+    box-shadow: 5px 4px 2px dodgerblue;
+    cursor: pointer;
+}

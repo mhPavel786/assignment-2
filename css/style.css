@@ -1,0 +1,83 @@
+	
+	body {
+		background:url(../img/bg.jpg);	
+		background-repeat: no-repeat;
+		background-size: cover;
+	
+	}
+	.container{
+    
+    height: 40%;
+    width: 50%;
+    margin: 10% auto;
+    color: #2d3436;
+    border-radius: 10px;
+    padding: 45px;
+    display: block;
+    background-color: transparent;
+
+	}
+	*{
+					padding: 0px;
+					margin: 0px;
+				}
+				.login-form img {
+					margin: 0 auto;
+					display: block;
+					
+				}
+				.login-form  h1{
+
+					font-size: 60px;
+					text-align: center;
+					text-transform: uppercase; 
+					color: white;
+
+				}
+
+				.login-form span{
+					font-size: 80px;
+					color: greenyellow;
+				}
+
+				.login-form a{
+
+					font-size: 60px;
+					color: lightgreen;
+				}
+				.login-form span[class="frm"] {
+					font-size: 95px;
+					color: greenyellow;
+					font-style: italic;
+				}
+
+
+
+				.dash{ 
+					padding: 45px;
+					width: 90%;
+					margin: 30px;
+					font-size: 30px;
+
+
+				}
+				.btn{
+					margin: 0 auto;
+					display: block;
+					padding: 40px 60px ;
+					background-color: black;
+					color: white;
+					border: none;
+					text-transform: uppercase;
+					transition: .456s ease;
+					-webkit-transition: .456s ease;
+					-o-transition: .5s ease;
+					-moz-transition: .5s ease;
+					
+
+				}
+				.btn:hover {
+					box-shadow: 5px 10px 10px tomato;
+					cursor: pointer;
+
+				}
